@@ -1,8 +1,8 @@
 import React from 'react'
-import Logo from './Logo1.webp'
-import Logo2 from './logo2.svg'
-import Logo3 from './logo 3.webp'
-import Logo4 from './logo4.webp'
+import Logo from './images/Logo1.webp'
+import Logo2 from './images/logo2.svg'
+import Logo3 from './images/logo 3.webp'
+import Logo4 from './images/logo4.webp'
 
 function feature() {
   return (
