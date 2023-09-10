@@ -1,6 +1,7 @@
 # Hospital-appointment-booking
 Hospital appointment booking
-
+technology used-react.js,node.js,express.js
+for user authentication i used jwt token ,parser-cookies which was stored on user site
 
 
 
