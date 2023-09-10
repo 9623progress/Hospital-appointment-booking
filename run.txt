@@ -1,0 +1,2 @@
+npm run start for frontend
+npm run dev for backend
