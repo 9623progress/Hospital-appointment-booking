@@ -1,0 +1,47 @@
+.appo-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.appo-form {
+    width: 500px;
+}
+
+.appo-image {
+    max-width: 500px;
+}
+
+.appo-form-div {
+    margin: 10px;
+    box-shadow: 0px 5px 10px 5px rgb(212, 211, 211);
+}
+
+@media(max-width:950px) {
+    .appo-top {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media(max-width:650px) {
+    .appo-form {
+        width: 400px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .appo-form {
+        width: 290px;
+    }
+
+    .appo-form-div {
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+
+}

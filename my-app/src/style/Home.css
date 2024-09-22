@@ -1,0 +1,155 @@
+.Home-front {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.Home-front h1 {
+    color: #321f56;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.Home-front-img {
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+.Home-front-img {
+    margin: 10px;
+}
+
+.Home-space {
+    margin: 0px 80px;
+}
+
+
+/* testimonial */
+.slider-div {
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.slider {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.slider h2 {
+    color: #4f3b72;
+
+}
+
+.testimonial-slide {
+    padding: 20px;
+    border: 2px solid #57417f;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.testimonial-text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+    color: #6c539b;
+}
+
+.patient-name {
+    font-weight: bold;
+    color: #50297c;
+}
+
+
+.home-book {
+    padding: 10px;
+    border: 2px solid #50297c;
+    border-radius: 5px;
+    background-color: #50297c;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.home-book:hover {
+    background-color: white;
+    color: #321f56;
+}
+
+
+@media (max-width: 1200px) {
+    .Home-front {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Home-front {
+        flex-wrap: wrap;
+    }
+
+    .Home-front-img {
+        max-width: 600px;
+    }
+
+    .Home-space {
+        margin: 0px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .Home-front {
+        flex-wrap: wrap;
+    }
+
+    .Home-front-img {
+        max-width: 400px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .Home-front {
+        flex-wrap: wrap;
+    }
+
+    .Home-front-img {
+        max-width: 320px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .testimonial-slide {
+        height: auto;
+        width: 80%;
+    }
+
+    .testimonial-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-slide {
+        margin: 0 5px;
+    }
+
+    .slider-button {
+        padding: 8px;
+    }
+}
